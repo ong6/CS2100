@@ -1,0 +1,4 @@
+3. -o option specifies name of executable file (default is ‘a.out’) and -g renames the file to lab1.c
+4. 0 [main] lab1 1249 cygwin_exception::open_stackdumpfile: Dumping stack trace to lab1.exe.stackdump
+8. break at line 21 and 29
+10. c = -13216, d = 0
