@@ -19,6 +19,6 @@
         return decimal;
     }
 
-9. We can calcualte the size of the array inside the function. But doing it outside makes assigning the end of line easier. 
+9. We cannot calcualte the size of the array in the function. Since array's sent as paramenters to a functions are treated as pointers so calcualating the sizeof an array in a function will return the point's size instead of the array.  
 
 10. %ld, aka long unsinged int
