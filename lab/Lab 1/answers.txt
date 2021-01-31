@@ -2,3 +2,4 @@
 4. 0 [main] lab1 1249 cygwin_exception::open_stackdumpfile: Dumping stack trace to lab1.exe.stackdump
 8. break at line 21 and 29
 10. c = -13216, d = 0
+11. test
