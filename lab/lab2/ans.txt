@@ -1,0 +1,24 @@
+3. 4. Yes, change the output of the array to index 0.
+4. returns the amount of memory which is allocated to that data type. char will give "1" 
+5. Yes, but the size of the array should be 3 instead of 4.
+7. Assume arr[10] is the array. to get stored value arr[0], to get address value &arr[0] 
+   Another way for both is int *p; p = &arr[0], p[0] will call the stored value and &p[0] will call the address.
+
+8. int hexToDecimal(char hex[], size_t size)
+    {
+        long decimal = 0;
+        int currHex = 0;
+        int counter = 0;
+        for (int i = size; i > 0; i--)
+        {
+            currHex = hexVal(hex[i - 1]);
+            decimal += currHex * pow(16, counter);
+            counter++;
+        }
+
+        return decimal;
+    }
+
+9. We can calcualte the size of the array inside the function. But doing it outside makes assigning the end of line easier. 
+
+10. %ld, aka long unsinged int
