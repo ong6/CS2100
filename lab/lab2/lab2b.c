@@ -21,6 +21,7 @@ int main(void)
 		len = len - 1;
 		hex[len] = '\0';
 	}
+	printf("%lu", len);
 
 	printf("You entered: %s\n", hex);
 	printf("The value in decimal is: %d\n", hexToDecimal(hex, len));
