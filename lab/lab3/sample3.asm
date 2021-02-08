@@ -8,7 +8,7 @@ main:  li $v0, 4
        syscall
 
        lb $t0, 4($a0)
-       addi $t0, -32
+       addi $t0, $t0, -32
        sb $t0, 4($a0)
        syscall
                           # load 'o' into $t0
