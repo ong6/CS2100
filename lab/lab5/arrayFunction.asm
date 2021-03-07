@@ -44,6 +44,8 @@ main:
 
 	# Calculate and print the index of min item
 	
+	addi $t3, $a2, -1
+
 	# Place the min index in $t3 for printing	
 
 	# Print the min index
@@ -116,6 +118,7 @@ l2:
 	j l2
 
 setlow: 
+	add $a2, $zero, $a0
 	add $t3, $t4, $zero 	# set t3 as the lower value
 	j l2
 
