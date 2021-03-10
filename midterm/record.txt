@@ -1,0 +1,4 @@
+C:/ffmpeg/bin/ffmpeg -f gdigrab -r 1 -probesize 20M -threads 1 -i desktop -vcodec libx264 -b:v 128k -s hd720 C:/Users/junxi/cs2100/midterm/vid2.mp4
+
+
+ffmpeg -f gdigrab -framerate 1 -video_size 2560x1440 -show_region 1 -i desktop -vcodec libx264 -b:v 128k -s hd720 output.mp4
